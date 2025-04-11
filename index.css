@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+  body {
+    background-image: url("cropimage.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .formdesign button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    margin-left: 210px;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+  .form-container {
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px; /* You can adjust the width here */
+}
+.formdesign button:hover {
+    background-color: #45a049;
+}
+
+/* Ensure inputs and button have consistent size */
+.formdesign input[type="number"], .formdesign input[type="text"] {
+    font-size: 16px;
+    padding: 10px;
+    margin: 2px;
+    width: 500px;
+    
+}
+
+/* Add a little space between input fields */
+.formdesign input {
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+.form-container p{
+  margin-left: 180px;
+  font-size:x-large;
+}
